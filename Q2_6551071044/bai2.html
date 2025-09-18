@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>University Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background: #fff;
+            max-width: 700px;
+            margin: 40px auto;
+            border: 2px solid #b3c6e7;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px #e0e0e0;
+            padding: 30px 40px 20px 40px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .logo {
+            width: 60px;
+            height: 60px;
+            margin-right: 18px;
+        }
+        .title {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        nav {
+            margin: 18px 0 28px 0;
+            border-bottom: 1px solid #b3c6e7;
+            padding-bottom: 8px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #2a4d8f;
+            font-weight: bold;
+            margin-right: 28px;
+            font-size: 1.08em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+            color: #1a2a4d;
+        }
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+        .section {
+            width: 48%;
+        }
+        .section h3 {
+            margin-top: 0;
+            font-size: 1.1em;
+            border-bottom: 1px solid #b3c6e7;
+            padding-bottom: 4px;
+        }
+        .news, .announcements {
+            margin-bottom: 12px;
+        }
+        .news-title, .announcement-title {
+            font-weight: bold;
+        }
+        .footer {
+            border-top: 1px solid #b3c6e7;
+            padding-top: 10px;
+            font-size: 0.98em;
+            color: #555;
+            text-align: center;
+        }
+        .footer a {
+            color: #2a4d8f;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="university.webp" alt="University Logo" class="logo">
+            <span class="title">University Name</span>
+        </div>
+        <nav>
+            <a href="#">Presentation</a>
+            <a href="#">Studies</a>
+            <a href="#">Staff</a>
+        </nav>
+        <div class="main-content">
+            <div class="section">
+                <h3>News</h3>
+                <div class="news">
+                    <span class="news-title">News 1</span> – 2025-09-18<br>
+                    Description of news 1.
+                </div>
+                <div class="news">
+                    <span class="news-title">News 2</span> – 2025-09-10<br>
+                    Description of news 2.
+                </div>
+            </div>
+            <div class="section">
+                <h3>Announcements</h3>
+                <div class="announcements">
+                    <span class="announcement-title">Open course 1</span><br>
+                    Description of open course 1.
+                </div>
+                <div class="announcements">
+                    <span class="announcement-title">Open course 2</span><br>
+                    Description of open course 2.
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            Contact: <a href="mailto:info@university.com">info@university.com</a><br>
+            &copy; University, 2011
+        </div>
+    </div>
+</body>
+</html>
